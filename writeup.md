@@ -1,5 +1,5 @@
 ```markdown
-# Trader Performance vs Market Sentiment — Summary
+## Trader Performance vs Market Sentiment — Summary
 
 ## Methodology
 Trader execution data was aggregated at a daily trader level and aligned with
