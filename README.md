@@ -114,6 +114,7 @@ regimes and trader behavioral cluster summaries.
 ├── writeup.md
 ├── final_df.csv
 ├── cluster_df.csv
+├── requirements.txt
 └── outputs
 
 ---
