@@ -88,9 +88,9 @@ and can be provided separately upon request.
    hyperliquid_trader_behavior_analysis.ipynb
 2. Run all cells from top to bottom
 3. Ensure the following files are present in the project directory:
-   hyperliquid_trader_behavior_analysis.ipynb
-   app.py
-   final_df.csv
+   hyperliquid_trader_behavior_analysis.ipynb,
+   app.py,
+   final_df.csv,
    cluster_df.csv
 4. Open a terminal / PowerShell in the project folder.
    Run the Streamlit app:
