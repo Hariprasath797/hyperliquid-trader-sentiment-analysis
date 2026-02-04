@@ -1,24 +1,39 @@
-```markdown
-## Trader Performance vs Market Sentiment — Summary
+# Trader Performance vs Market Sentiment — Summary
 
 ## Methodology
-Trader execution data was aggregated at a daily trader level and aligned with
-daily market sentiment (Fear/Greed). Key performance and behavioral metrics
-such as daily PnL, win rate, trade frequency, position size, and directional
-bias were computed. Performance and behavior were then compared across
-sentiment regimes, and traders were segmented into behavioral groups.
+This analysis combines daily market sentiment data from the Fear & Greed Index
+with trader-level execution data from Hyperliquid. Trading activity was
+aggregated at a daily trader level and aligned with corresponding market
+sentiment regimes. Key performance and behavioral metrics—including daily PnL,
+win rate, trade frequency, average trade size, and directional bias—were
+engineered to assess how trader behavior and outcomes vary across Fear and
+Greed conditions. Traders were further segmented based on activity levels and
+performance consistency to identify heterogeneous responses to sentiment
+shifts.
 
-## Insights
-1. Traders experience lower profitability and higher downside risk during
-   Fear regimes.
-2. Greed regimes are associated with increased trading activity and larger
-   position sizes.
-3. Consistent traders are less sensitive to sentiment-driven volatility,
-   while frequent and inconsistent traders are more negatively impacted
-   during Fear periods.
+## Key Insights
+1. **Performance Degradation During Fear Regimes**  
+   Trader profitability declines during Fear periods, accompanied by a higher
+   proportion of losing days, indicating increased downside risk and elevated
+   market uncertainty.
+
+2. **Risk-On Behavior During Greed Regimes**  
+   Greed periods are characterized by higher trading activity and larger
+   position sizes, suggesting increased risk appetite and momentum-driven
+   behavior.
+
+3. **Heterogeneous Impact Across Trader Types**  
+   Consistent traders exhibit greater resilience to sentiment-driven volatility,
+   while high-frequency and inconsistent traders are disproportionately
+   impacted during Fear regimes.
 
 ## Strategy Recommendations
-- During Fear regimes, reduce trade frequency and position sizes to control
-  drawdowns, especially for high-frequency traders.
-- During Greed regimes, allow increased activity only for traders with
-  demonstrated consistency and strong historical win rates.
+- **Risk Control in Fear Regimes**  
+  During Fear periods, limit trade frequency and reduce position sizes,
+  particularly for high-frequency or historically inconsistent traders, to
+  mitigate drawdowns.
+
+- **Selective Risk-Taking in Greed Regimes**  
+  During Greed periods, allow increased trading activity and exposure only for
+  traders with demonstrated consistency and strong historical win rates, while
+  maintaining strict controls for others.
