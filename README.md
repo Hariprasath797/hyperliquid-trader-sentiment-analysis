@@ -112,6 +112,13 @@ regimes and trader behavioral cluster summaries.
 ├── app.py
 ├── README.md
 ├── writeup.md
-└── outputs/
-    ├── final_df.csv
-    └── cluster_df.csv
+├── final_df.csv
+├── cluster_df.csv
+└── outputs
+
+---
+
+## Live Dashboard
+
+The interactive Streamlit dashboard is deployed and accessible here:
+👉 https://hyperliquid-trader-sentiment-analysis-hi5lfgkewkf4ecuszdd8cw.streamlit.app/
