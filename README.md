@@ -83,6 +83,14 @@ and can be provided separately upon request.
 
 ---
 
+## Outputs
+
+The `outputs/` directory contains key charts and tables generated from the
+analysis and Streamlit dashboard, including PnL distributions across sentiment
+regimes and trader behavioral cluster summaries.
+
+---
+
 ## How to Run
 1. Open the main notebook:
    hyperliquid_trader_behavior_analysis.ipynb
