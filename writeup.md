@@ -1,10 +1,3 @@
-
----
-
-# 📄 SHORT WRITE-UP (MAX 1 PAGE) — `writeup.md`
-
-👉 This **directly satisfies** their “short write-up” requirement.
-
 ```markdown
 # Trader Performance vs Market Sentiment — Summary
 
